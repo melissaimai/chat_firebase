@@ -28,7 +28,7 @@ public class NovoUsuarioActivity extends AppCompatActivity {
         mAuth = FirebaseAuth.getInstance();
     }
 
-    public void criarNovoUsuario (View v){
+    public void criarNovoUsuario (View view){
         String login =
                 loginNovoUsuarioEditText.getEditableText().toString();
         String senha =

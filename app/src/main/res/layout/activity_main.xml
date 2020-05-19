@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FazerLoginActivity"
+    tools:context=".MainActivity"
     android:orientation="vertical">
 
     <TextView
@@ -32,7 +32,6 @@
         android:layout_marginStart="20dp"
         android:hint="@string/dica_login"
         android:background="@color/colorInput"
-        android:elevation="4dp"
         android:gravity="center"/>
 
     <EditText
@@ -46,7 +45,6 @@
         android:hint="@string/dica_senha"
         android:inputType="textPassword"
         android:background="@color/colorInput"
-        android:elevation="4dp"
         android:gravity="center"/>
 
     <Button
@@ -55,6 +53,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
         android:layout_marginStart="20dp"
+        android:padding="12dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@android:string/ok"
