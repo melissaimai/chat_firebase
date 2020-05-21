@@ -35,7 +35,6 @@ public class MainActivity extends AppCompatActivity {
         String login = loginEditText.getText().toString();
         String senha = senhaEditText.getText().toString();
         firebaseAuth.signInWithEmailAndPassword(login, senha).addOnSuccessListener((result) -> {
-            //ff
         }).addOnFailureListener((error) -> {
             Toast.makeText(this, getString(R.string.login_falhou), Toast.LENGTH_LONG).show();
         });
