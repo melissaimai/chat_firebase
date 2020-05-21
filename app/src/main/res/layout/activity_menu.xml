@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MenuActivity">
 
+<<<<<<< HEAD
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="409dp"
@@ -207,4 +208,6 @@
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
     </LinearLayout>
+=======
+>>>>>>> 8654d2ca612a967bae3c7278166c46b474a39f18
 </androidx.constraintlayout.widget.ConstraintLayout>

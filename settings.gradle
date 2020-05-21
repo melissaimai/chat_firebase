@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 rootProject.name='fatec_ipi_noite_chat_com_firebase'
 include ':app'
+=======
+include ':app'
+rootProject.name='fatec_ipi_chat'
+>>>>>>> 8654d2ca612a967bae3c7278166c46b474a39f18

@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< HEAD
     package="com.example.fatec_ipi_noite_chat_com_firebase">
+=======
+    package="com.example.fatec_ipi_chat">
+>>>>>>> 8654d2ca612a967bae3c7278166c46b474a39f18
 
     <application
         android:allowBackup="true"
@@ -9,7 +13,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+<<<<<<< HEAD
         <activity android:name=".ChatActivity"></activity>
+=======
+        <activity android:name=".MenuActivity"></activity>
+        <activity android:name=".ChatActivity" />
+>>>>>>> 8654d2ca612a967bae3c7278166c46b474a39f18
         <activity android:name=".NovoUsuarioActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
@@ -18,10 +27,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<<<<<<< HEAD
 
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
+=======
+>>>>>>> 8654d2ca612a967bae3c7278166c46b474a39f18
     </application>
 
 </manifest>
